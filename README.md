@@ -3,7 +3,10 @@
 ROS driver for multiple cameras
 
 ## 安装
- - 使用这个包需要计算机拥有多个USB Bus，运行时应将不同的相机连接在不同的USB Bus上。
+ - 使用这个包需要计算机拥有多个USB Bus，运行时应将不同的相机连接在不同的USB Bus上，查看USB Bus信息
+   ```Shell
+   lsusb
+   ```
  - 建立工作空间并拷贝这个库
    ```Shell
    mkdir -p ros_ws/src
