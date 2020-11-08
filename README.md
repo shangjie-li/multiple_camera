@@ -86,4 +86,3 @@ ROS driver for multiple cameras
    ./multiple_view.sh
    ```
    
-   
